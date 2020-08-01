@@ -1,0 +1,194 @@
+.loader{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: url('../../img/loading.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+/* used often classes */
+.signika{
+    text-decoration: 800;
+    font-family: 'Signika Negative', sans-serif;
+}
+.sans-pro{
+    font-family: 'Signika Negative', sans-serif;
+}
+#heading{
+  letter-spacing: 0.3rem;
+  text-shadow: 3px 3px #c0c0c0;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* background */
+body{
+    /* background: #f3f4f6; */
+    background-image : url('../../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    font-weight: bold;
+    font-family: 'Signika Negative', sans-serif;
+}
+.nav-link:hover{
+  background-color: #fff;
+}
+.typing{
+    /* background: url(https://secure.cdn.us.playstation.com/god-of-war/img/page-left-blank.png);
+    background-repeat: no-repeat;
+    background-size: auto; */
+    background-color: #031D44;
+    color: wheat;
+    padding: 1em;
+    font-size: 2em;
+    height: 12em;
+}
+#me{
+    /* box-shadow: 2px 2px #000; */
+    height: 10em;
+    border-radius: 50%;
+}
+#profile {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#000;
+    font-size: 1.2rem;
+}
+#profile h1{
+  text-shadow: 2px 3px #cfcfcf;
+}
+#profile i{
+  text-shadow: 2px 2px #d8d4d4;
+}
+#full-stack-js{
+  font-size: 1.5em;
+  letter-spacing: 0.01em;
+  text-shadow: 2px 2px #cfcfcf;
+}
+#skills{
+  background-image: url('../../img/skills.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#skills i{
+    text-shadow: 2px 2px #d8d4d4;
+    font-size: 6em;
+}
+.icons i{
+    font-size: 1.3em;
+    padding: 0 1em 1em 1em;
+}
+
+#about-me .row{
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+/* go up on scroll */
+#return-to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 12px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+#contact #heading{
+  letter-spacing: 0.3rem;
+  text-shadow: 2px 2px #0c0c0c;
+}
+
+hr{
+  width:50%;
+  /* border: 1px solid black; */
+  height: 1px;
+  box-shadow: 1px 1px #c3c3c3;
+}
+/* #contact input[type='email'] {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  box-shadow:none !important;
+  border-bottom: 1px solid black;
+
+}
+#contact textarea{
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  box-shadow:none !important;
+  border-bottom: 1px solid black;
+
+} */
+/* parallax */
+/* #profile{
+    background-image: url('https://images.unsplash.com/photo-1532207733185-fc73ca0a54b5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a95e7cbb6cab16f88b1cf052da71afb2&auto=format&fit=crop&w=877&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+#featured-work{
+  background-image: url('../../img/featuredWork.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#about-me{
+    background-image: url('../../img/about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#contact{
+    background-image: url('../../img/contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* media queries */
+@media (max-width:600px){
+    #skills i{
+        font-size: 5em;
+    }
+    hr{
+      width: 90%;
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "background_color": "#E2E7ED",
+    "description": "Testing my website as progressive web app",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Apple-touch-icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+
+    ],
+    "name": "Saurabh Panja",
+    "short_name": "Saurabh Panja",
+    "start_url": ".",
+    "theme_color": "#E2E7ED"
+}
